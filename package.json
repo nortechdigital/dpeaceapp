@@ -1,0 +1,24 @@
+{
+  "name": "dpeaceapp",
+  "version": "1.0.0",
+  "description": "1. Open a terminal.\r 2. Make the script executable (if not already):\r    ```bash\r    chmod +x send_webhook.sh\r    ```\r 3. Run the script:\r    ```bash\r    ./send_webhook.sh\r    ```",
+  "main": "sw.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://nortechdigital@github.com/nortechdigital/dpeaceapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nortechdigital/dpeaceapp/issues"
+  },
+  "homepage": "https://github.com/nortechdigital/dpeaceapp#readme",
+  "dependencies": {
+    "@capacitor/core": "^7.4.2",
+    "@capacitor/ios": "^7.4.2"
+  }
+}
