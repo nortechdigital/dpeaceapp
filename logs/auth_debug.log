@@ -1,0 +1,1 @@
+{"timestamp":"2025-03-26 17:39:51","credentials":{"username":"dPeaceApp","password_length":14,"base64_auth":"ZFBlYWNlQXBwOkQkMzRlYWNlX0FwcCQj"},"endpoint":"https:\/\/b2bapi.v2napi.com\/dev\/tv\/validate","payload":{"billerId":"STARTIMES","customerId":"1234567890","amount":900,"bouquetCode":"STARTNOV_ANT"}}

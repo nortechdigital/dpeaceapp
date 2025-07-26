@@ -1,0 +1,160 @@
+=== Test @ 2025-06-14 10:42:35 ===
+Sent Headers:
+POST /opay_webhook.php HTTP/1.1
+Host: dpeaceapp.com
+Accept: */*
+content-type: application/json
+x-opay-tranid: TEST737932
+merchantid: 1200338057
+Content-Length: 310
+
+
+Request Body:
+{
+    "status": "SUCCESS",
+    "transactionId": "TRAN112359",
+    "depositCode": "6126469297",
+    "refId": "REF508",
+    "depositTime": "2025-06-14T10:42:35Z",
+    "depositAmount": 1279.9,
+    "currency": "NGN",
+    "errorCode": "0",
+    "errorMsg": "",
+    "formatDateTime": "2025-06-14T10:42:35Z",
+    "orderNo": "ORD9265",
+    "notes": "Test transaction from validation script"
+}
+Response: HTTP 400
+Headers:
+HTTP/1.1 400 Bad Request
+Date: Sat, 14 Jun 2025 09:42:35 GMT
+Server: Apache
+Upgrade: h2,h2c
+Connection: Upgrade, close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+
+Body:
+{"status":"error","message":"Missing required headers","missing_headers":["content-type"],"received_headers":["Merchantid","X-Opay-Tranid","Accept","Host"]}
+
+=== Test @ 2025-06-14 10:46:29 ===
+Sent Headers:
+POST /opay_webhook.php HTTP/1.1
+Host: dpeaceapp.com
+Accept: */*
+Content-Type: application/json
+X-Opay-Tranid: TEST532980
+merchantid: 1200338057
+Content-Length: 310
+
+
+Request Body:
+{
+    "status": "SUCCESS",
+    "transactionId": "TRAN999097",
+    "depositCode": "6121218362",
+    "refId": "REF255",
+    "depositTime": "2025-06-14T10:46:29Z",
+    "depositAmount": 4050.7,
+    "currency": "NGN",
+    "errorCode": "0",
+    "errorMsg": "",
+    "formatDateTime": "2025-06-14T10:46:29Z",
+    "orderNo": "ORD8103",
+    "notes": "Test transaction from validation script"
+}
+Response: HTTP 400
+Headers:
+HTTP/1.1 400 Bad Request
+Date: Sat, 14 Jun 2025 09:46:29 GMT
+Server: Apache
+Upgrade: h2,h2c
+Connection: Upgrade, close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+
+Body:
+{"status":"error","message":"Missing required headers","missing_headers":["Content-Type"],"received_headers":["Merchantid","X-Opay-Tranid","Accept","Host"]}
+
+=== Test @ 2025-06-14 10:46:37 ===
+Sent Headers:
+POST /opay_webhook.php HTTP/1.1
+Host: dpeaceapp.com
+Accept: */*
+Content-Type: application/json
+X-Opay-Tranid: TEST491347
+merchantid: 1200338057
+Content-Length: 310
+
+
+Request Body:
+{
+    "status": "SUCCESS",
+    "transactionId": "TRAN316663",
+    "depositCode": "6122704291",
+    "refId": "REF871",
+    "depositTime": "2025-06-14T10:46:37Z",
+    "depositAmount": 3881.3,
+    "currency": "NGN",
+    "errorCode": "0",
+    "errorMsg": "",
+    "formatDateTime": "2025-06-14T10:46:37Z",
+    "orderNo": "ORD2043",
+    "notes": "Test transaction from validation script"
+}
+Response: HTTP 400
+Headers:
+HTTP/1.1 400 Bad Request
+Date: Sat, 14 Jun 2025 09:46:37 GMT
+Server: Apache
+Upgrade: h2,h2c
+Connection: Upgrade, close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+
+Body:
+{"status":"error","message":"Missing required headers","missing_headers":["Content-Type"],"received_headers":["Merchantid","X-Opay-Tranid","Accept","Host"]}
+
+=== Test @ 2025-06-14 10:47:24 ===
+Sent Headers:
+POST /opay_webhook.php HTTP/1.1
+Host: dpeaceapp.com
+Accept: */*
+Content-Type: application/json
+X-Opay-Tranid: TEST205474
+merchantid: 1200338057
+Content-Length: 310
+
+
+Request Body:
+{
+    "status": "SUCCESS",
+    "transactionId": "TRAN641786",
+    "depositCode": "6128086466",
+    "refId": "REF265",
+    "depositTime": "2025-06-14T10:47:23Z",
+    "depositAmount": 1723.3,
+    "currency": "NGN",
+    "errorCode": "0",
+    "errorMsg": "",
+    "formatDateTime": "2025-06-14T10:47:23Z",
+    "orderNo": "ORD3545",
+    "notes": "Test transaction from validation script"
+}
+Response: HTTP 400
+Headers:
+HTTP/1.1 400 Bad Request
+Date: Sat, 14 Jun 2025 09:47:24 GMT
+Server: Apache
+Upgrade: h2,h2c
+Connection: Upgrade, close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+
+Body:
+{"status":"error","message":"Missing required headers","missing_headers":["Content-Type"],"received_headers":["Merchantid","X-Opay-Tranid","Accept","Host"]}
+

@@ -1,0 +1,37 @@
+*   Trying 159.138.172.108:443...
+* Connected to payapi.opayweb.com (159.138.172.108) port 443 (#0)
+* ALPN, offering h2
+* ALPN, offering http/1.1
+*  CAfile: /etc/ssl/certs/ca-certificates.crt
+*  CApath: /etc/ssl/certs
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN, server accepted to use h2
+* Server certificate:
+*  subject: CN=*.opayweb.com
+*  start date: Sep 10 00:00:00 2024 GMT
+*  expire date: Oct 11 23:59:59 2025 GMT
+*  subjectAltName: host "payapi.opayweb.com" matched cert's "*.opayweb.com"
+*  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=Encryption Everywhere DV TLS CA - G1
+*  SSL certificate verify ok.
+* Using HTTP2, server supports multiplexing
+* Connection state changed (HTTP/2 confirmed)
+* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+* Using Stream ID: 1 (easy handle 0x558dd70d8840)
+> POST /api/v2/third/depositcode/generateStaticDepositCode HTTP/2
+Host: payapi.opayweb.com
+accept: */*
+clientauthkey: d5ba7ce02076453faa0435237cb9387b
+version: V1.0.1
+bodyformat: JSON
+timestamp: 1750185587000
+content-type: application/json
+content-length: 207
+
+* Connection state changed (MAX_CONCURRENT_STREAMS == 128)!
+* We are completely uploaded and fine
+< HTTP/2 200 
+< date: Tue, 17 Jun 2025 17:39:48 GMT
+< content-type: application/json;charset=UTF-8
+< server: elb
+< 
+* Connection #0 to host payapi.opayweb.com left intact

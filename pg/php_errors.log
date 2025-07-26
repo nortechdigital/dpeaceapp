@@ -1,0 +1,1 @@
+[03-Jun-2025 22:57:54 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/dpeaceapp/public_html/pg/wallet-creation.php on line 40

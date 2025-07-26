@@ -1,0 +1,26 @@
+[2025-06-25 21:14:06] Payment process started
+[2025-06-25 21:14:06] Calling validation endpoint: http://swiftng.com:3000/customer.aspx?Username=PeaceAppTest&Password=peaceapptest&Partner=PeaceApp&customer_id=66770
+[2025-06-25 21:14:07] Validation response: <?xml version='1.0' encoding='utf-8' ?><CustomerResponse><Customer><CustomerId>66770</CustomerId><FirstName>E-centre, Yaba</FirstName><LastName>E-center</LastName><StatusCode>0</StatusCode ><StatusDescription>Valid Customer</StatusDescription></Customer></CustomerResponse>
+[2025-06-25 21:14:07] Calling payment endpoint: http://swiftng.com:3000/ISWPayment.ashx?Username=PeaceAppTest&Password=peaceapptest&Partner=PeaceApp
+[2025-06-25 21:14:07] Payment request XML: <?xml version="1.0" encoding="utf-8"?>
+<PaymentNotificationRequest>
+    <Payments>
+        <Payment>
+            <PaymentLogId>20250625211407</PaymentLogId>
+            <CustReference>66770</CustReference>
+            <Amount>1800</Amount>
+            <PaymentMethod>WEB</PaymentMethod>
+            <PaymentDate>2025-06-25 21:14:07</PaymentDate>
+            <IsReversal>false</IsReversal>
+            <PaymentItems>
+                <PaymentItem>
+                    <ItemName>Service</ItemName>
+                    <ItemCode>Service</ItemCode>
+                    <ItemAmount>1800</ItemAmount>
+                </PaymentItem>
+            </PaymentItems>
+        </Payment>
+    </Payments>
+</PaymentNotificationRequest>
+[2025-06-25 21:14:07] Payment API response: <?xml version='1.0' encoding='utf-8' ?><PaymentNotificationResponse><Payments><Payment><PaymentLogId>0</PaymentLogId><Status>1</Status><StatusDesc>Authentication Failed - PeaceAppTest - peaceapptest - 203.161.43.189</StatusDesc></Payment></Payments></PaymentNotificationResponse>
+[2025-06-25 21:14:07] ERROR: Payment failed: Payment failed without description (Status: 1)

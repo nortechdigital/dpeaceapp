@@ -1,0 +1,11 @@
+{
+    "eventType": "SUCCESSFUL_TRANSACTION",
+    "eventData": {
+      "paymentReference": "XYZ123",
+      "amountPaid": 10000,
+      "customer": {
+        "email": "adamkabeer24@outlook.com"
+      }
+    }
+  }
+  

@@ -1,0 +1,38 @@
+*   Trying 159.138.172.108:443...
+* Connected to payapi.opayweb.com (159.138.172.108) port 443 (#0)
+* ALPN, offering h2
+* ALPN, offering http/1.1
+*  CAfile: /etc/ssl/certs/ca-certificates.crt
+*  CApath: /etc/ssl/certs
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN, server accepted to use h2
+* Server certificate:
+*  subject: CN=*.opayweb.com
+*  start date: Sep 10 00:00:00 2024 GMT
+*  expire date: Oct 11 23:59:59 2025 GMT
+*  subjectAltName: host "payapi.opayweb.com" matched cert's "*.opayweb.com"
+*  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=Encryption Everywhere DV TLS CA - G1
+*  SSL certificate verify ok.
+* Using HTTP2, server supports multiplexing
+* Connection state changed (HTTP/2 confirmed)
+* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+* Using Stream ID: 1 (easy handle 0x55cc42dd88a0)
+> POST /api/v2/third/depositcode/generateStaticDepositCode HTTP/2
+Host: payapi.opayweb.com
+accept: */*
+content-type: application/json
+authorization: Bearer MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCEK5JGJLqz61zM2FHDG3BzdHWaLKZXooVm5ZuKlRbSuJxsWpkwYInc76w9Y/eeyef780s7tCDR8euDjlszVnq9dWe0BkdoY3FJNz9fplWH79QJZwkZ1t56ZeRvAx9w+39i1Q29LdfWQT/xePc5Ee8rX+xPXLsHyfn3AF8dV5FdJwIDAQAB
+merchantid: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC/e5YDDmEEvFSao32w0+g+elak fVv7XnWPcIZ9RwaHdNpK99rUffK4dCUAe9cgBDVWRuHRwTKFRldh6qZi6QDR9xwG Bgs3/IJjnRZ21ePTsRksYUIuDMvfX8qESxSkQt4K7a7SysQmuNvIWN3SQErrcBw7 joxG1v23jiTKPlosfwIDAQAB
+clientauthkey: d5ba7ce02076453faa0435237cb9387b
+version: 1.0
+bodyformat: 1
+content-length: 469
+
+* Connection state changed (MAX_CONCURRENT_STREAMS == 128)!
+* We are completely uploaded and fine
+< HTTP/2 200 
+< date: Tue, 03 Jun 2025 22:57:56 GMT
+< content-type: application/json;charset=UTF-8
+< server: elb
+< 
+* Connection #0 to host payapi.opayweb.com left intact

@@ -1,0 +1,2 @@
+[2025-06-14 10:56:32] DB Connection Error: Failed opening required '/home/dpeaceapp/public_html/config/db_config.php' (include_path='.:/usr/share/php')
+[2025-06-14 10:59:58] System Error: processOpayWebhook(): Argument #1 ($conn) must be of type mysqli, null given, called in /home/dpeaceapp/public_html/opay_webhook.php on line 217

@@ -1,0 +1,4 @@
+=== Test @ 2025-06-14 10:34:57 ===
+Request: {"url":"https:\/\/dpeaceapp.com\/opay_webhook.php","headers":["Content-Type: application\/json","X-Opay-Tranid: TEST733610","merchantId: 1200338057"],"data":{"status":"SUCCESS","transactionId":"TRAN250838","depositCode":"6128600321","refId":"REF939","depositTime":"2025-06-14T10:34:57Z","depositAmount":1635.7,"currency":"NGN","errorCode":"0","errorMsg":"","formatDateTime":"2025-06-14T10:34:57Z","orderNo":"ORD7411","notes":"Test transaction from validation script"}}
+Response: HTTP 400 - {"status":"error","message":"Missing required headers","missing_headers":["content-type"],"received_headers":["Merchantid","X-Opay-Tranid","Accept","Host"]}
+
